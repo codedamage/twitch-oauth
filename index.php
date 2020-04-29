@@ -2,9 +2,9 @@
 require 'twitch.php';
 
 $provider = new TwitchProvider([
-    'clientId'                => 'aykbgdlthyq4rjngjkl1l7d9w03q79',     // The client ID assigned when you created your application
-    'clientSecret'            => 'kr974chb7uyyxtclks5qaegulemc8y', // The client secret assigned when you created your application
-    'redirectUri'             => 'https://findstreamer.com/oauth.php',  // Your redirect URL you specified when you created your application
+    'clientId'                => ' ',     // The client ID assigned when you created your application
+    'clientSecret'            => ' ', // The client secret assigned when you created your application
+    'redirectUri'             => 'https://yoursite.com/oauth.php',  // Your redirect URL you specified when you created your application
     'scopes'                  => ['analytics:read:extensions channel:read:subscriptions user:read:email']  // The scopes you would like to request
 ]);
 
